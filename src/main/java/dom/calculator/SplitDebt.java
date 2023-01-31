@@ -1,5 +1,4 @@
 package dom.calculator;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -22,7 +21,7 @@ public class SplitDebt {
             System.out.println("Enter " + i + "th member's name:");
             String membersName = scanner.next();
 
-            System.out.println("Do you want to add else? Press 1 to continue and 2 stop.");
+            System.out.println("Do you want to add else? Press 1 to continue and 2 to stop: ");
             button = scanner.nextInt();
 
             names.add(membersName);
